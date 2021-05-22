@@ -38,7 +38,7 @@ export default function Sidebar({ id }) {
         <div className="p-2 border-top border-end small">
           Your ID: <span className="text-muted">{id}</span>
         </div>
-        <Button onClick={() => setModalOpen(true)} className="rounded-0">
+        <Button onClick={() => setModalOpen(true)} className="rounded-0 btn-success">
           New {activeKey === CONVERSATIONS_KEY ? "conversation" : "contact"}
         </Button>
       </Tab.Container>
